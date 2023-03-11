@@ -1,0 +1,38 @@
+.sidebarLink {
+	display: flex;
+	color: #242321;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	list-style: none;
+	height: 60px;
+	text-decoration: none;
+	font-size: 18px;
+	border-left: 4px solid #ffd500;
+
+	&:hover {
+		border-left: 4px solid #dab604;
+		cursor: pointer;
+	}
+}
+
+.sidebarLabel {
+	margin-left: 16px;
+}
+
+.dropdownLink {
+	width: 7em;
+	height: 60px;
+	margin-left: 3em;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #242321;
+	font-size: 18px;
+
+	&:hover {
+		transition: 100ms;
+		border-bottom: 4px solid #dab604;
+		cursor: pointer;
+	}
+}

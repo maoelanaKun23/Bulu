@@ -1,0 +1,35 @@
+.textField {
+  padding: 4px 20px 4px 12px;
+  border-radius: 8px;
+
+  input {
+    border: none;
+    outline: none;
+    width: -webkit-fill-available;
+
+    font-family: "SFProText-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: transparent;
+  }
+
+  img {
+    background: #ffd500;
+    border-radius: 8px;
+    height: 16px;
+    width: 16px;
+    padding: 6px;
+
+    display: flex;
+    align-items: center;
+  }
+}
+
+.outline {
+  border: 1px solid #7C7C7C;
+}
+
+.filled {
+  background: #f9f9f9;
+}

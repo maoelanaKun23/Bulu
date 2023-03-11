@@ -1,0 +1,83 @@
+@import 'themes/variables';
+
+@function vw-fhd($size-in-px) {
+  $size-in-vw: ($size-in-px * 100) / 1920;
+
+  @return #{$size-in-vw}vw;
+}
+
+@function vh-fhd($size-in-px) {
+  $size-in-vw: ($size-in-px * 100) / 1080;
+
+  @return #{$size-in-vw}vh;
+}
+
+@function vw($size-in-px) {
+  $size-in-vw: ($size-in-px * 100) / 1280;
+
+  @return #{$size-in-vw}vw;
+}
+
+@function vh($size-in-px) {
+  $size-in-vw: ($size-in-px * 100) / 397;
+
+  @return #{$size-in-vw}vh;
+}
+
+@function vw-mobile($size-in-px) {
+  $size-in-vw: ($size-in-px * 100) / 360;
+
+  @return #{$size-in-vw}vw;
+}
+
+@function vw-tab($size-in-px) {
+  $size-in-vw: ($size-in-px * 100) / 768;
+
+  @return #{$size-in-vw}vw;
+}
+
+@function linepos($top) {
+  $x: ($top * 1920);
+
+  @return #{$top}px;
+}
+
+@function colors($color-name) {
+  @if map-has-key($colors, $color-name) {
+    @return map-get($colors, $color-name);
+  }
+
+  @warn "The key #{$color-name} is not in the map ’$colors’";
+
+  @return null;
+}
+
+@function shadows($shadow-name) {
+  @if map-has-key($shadows, $shadow-name) {
+    @return map-get($shadows, $shadow-name);
+  }
+
+  @warn "The key #{$shadow-name} is not in the map ’$shadows’";
+
+  @return null;
+}
+
+@function z-index($z-name) {
+  @if map-has-key($z-index, $z-name) {
+    @return map-get($z-index, $z-name);
+  }
+
+  @warn "The key #{$z-name} is not in the map ’$z-index’";
+
+  @return null;
+}
+
+@function screen($screen-name) {
+  @if map-has-key($screen, $screen-name) {
+    @return map-get($screen, $screen-name);
+  }
+
+  @warn "The key #{$screen-name} is not in the map ’$screen’";
+
+  @return null;
+}

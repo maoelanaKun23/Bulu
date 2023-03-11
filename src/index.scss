@@ -1,0 +1,96 @@
+@import "./themes/colors";
+@import "./themes/size";
+@import url("./themes/fonts.scss");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato-Regular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: "SFUIDisplay-Bold";
+  font-size: 32px;
+  line-height: 38px;
+  color: #dab604;
+  opacity: 0.8;
+  margin: 10px 0 0 0;
+}
+
+h2 {
+  font-family: "SFUIDisplay-Bold";
+  font-size: 32px;
+  line-height: 38px;
+  color: #0055a0;
+  opacity: 0.8;
+  margin: 0;
+}
+
+h3 {
+  font-family: "SFUIDisplay-Bold";
+  font-size: 24px;
+  line-height: 29px;
+  color: #001717;
+  opacity: 0.8;
+  margin: 0;
+}
+
+h4 {
+  font-family: "SFUIDisplay-Bold";
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  opacity: 0.8;
+  margin: 20px 0;
+}
+
+h5 {
+  font-family: "SFProText-Regular";
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 26px;
+  color: #001717;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.line-dashed-gray {
+  border: 1px dashed #c4c4c4;
+  margin-top: 10px;
+}
+
+.line-dashed-white {
+  border: 1px dashed white;
+}
+
+.line-gray {
+  border: 1px solid #DCDCDC;
+}
+
+.card-outline {
+  border: 1px solid #C4C4C4;
+  filter: drop-shadow(0px 3px 9px rgba(0, 0, 0, 0.08));
+  border-radius: 8px;
+}
+
+.img-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.react-multiple-carousel__arrow--left {
+  // opacity: 0;
+  z-index: 1 !important;
+  // &:hover {
+  //     opacity: 1 !important;
+  // }
+}
+// .react-multiple-carousel__arrow--right {
+//   // opacity: 0 !important;
+//   z-index: 1 !important;
+//   // &:hover {
+//   //     opacity: 1 !important;
+//   // }
+// }

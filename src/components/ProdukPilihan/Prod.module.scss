@@ -1,0 +1,29 @@
+.Prod {
+    width: 100%;
+    
+    .this-prod{
+        margin-left: 10% !important;
+    }
+    .font {
+        // margin-left: 8%;
+        font-family: 'Candara';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 19px;
+    
+        /* identical to box height */
+        letter-spacing: 0.03em;
+    
+        color: #000000;
+    }
+    .bottom{
+        background-color: #D8D8D8;
+        height: 170px;
+        margin-top: -8%;
+        border-radius: 16px;
+        width: 85%;
+        margin-left: 8%;
+    }
+}
+

@@ -1,0 +1,48 @@
+.NavBack {
+    text-decoration: none;
+    cursor: pointer;
+    float: right;
+    margin-left: -25%;
+    .BackButton {
+        display: flex;
+        cursor: pointer;
+        .Back {
+            cursor: pointer;
+            font-family: 'Calibri';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 30px;
+
+            /* identical to box height */
+            letter-spacing: 0.03em;
+
+            color: #000000;
+        }
+    }
+}
+
+
+
+.main {
+    display: flex;
+    margin-bottom: 3%;
+
+    .card {
+        width: 20%;
+        height: 770px;
+        background-color: #f0d000 !important;
+        border-radius: 8px;
+        border: 1px solid #d8d8d8;
+    }
+
+    .card-2 {
+        margin-top: 3%;
+        width: 90%;
+        height: 690px;
+        background-color: #F8F8F8 !important;
+        border: 1px solid #d8d8d8;
+        margin-left: -9%;
+        border-radius: 16px;
+    }
+}

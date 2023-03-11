@@ -1,0 +1,146 @@
+li {
+  padding-bottom: 1.5rem;
+  border-left: 2px dashed #565555;
+  position: relative;
+  padding-left: 40px;
+  list-style-type: none;
+
+  &:last-child {
+    border: 0px;
+    padding-bottom: 0px;
+    left: 2px;
+  }
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.li-white {
+  &:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 4px solid #e8e8e8;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 0;
+  }
+}
+
+.li-blue {
+  &:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #49b2f2;
+    border: 4px solid #e8e8e8;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 0;
+  }
+}
+
+.li-green {
+  &:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #4fd955;
+    border: 4px solid #e8e8e8;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 0;
+  }
+}
+
+.li-green-dark {
+  padding: 0 0 14px 26px;
+
+  &:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #148f0f;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 0;
+  }
+}
+
+.li-orange {
+  &:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #fbac36;
+    border: 4px solid #e8e8e8;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 0;
+  }
+}
+
+.li-gray {
+  padding: 0 0 14px 26px;
+
+  &:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #565555;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 0;
+  }
+}
+
+.li-outgoing {
+  &:before {
+    content: url("../../assets/icons/timeline-outgoing.png");
+    transform: scale(0.3);
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: -81px;
+    top: -60px;
+    background-color: white;
+  }
+}
+
+.li-truck {
+  &:before {
+    content: url("../../assets/icons/timeline-truck.png");
+    transform: scale(0.3);
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: -82px;
+    top: -60px;
+    background-color: white;
+  }
+}
+
+.li-vessel {
+  &:before {
+    content: url("../../assets/icons/timeline-vessel.png");
+    transform: scale(0.3);
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: -82px;
+    top: -60px;
+    background-color: white;
+  }
+}

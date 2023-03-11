@@ -1,0 +1,118 @@
+.Tabs {
+    color: #f0d000;
+}
+
+.tab-2 {
+
+    .ini-info {
+        height: 200px;
+        // border: 1px solid #AAA;
+        overflow: hidden;
+        width: 100%;
+
+        .ini-child {
+            height: 100%;
+            width: 100%;
+            margin-right: -50px;
+            /* Maximum width of scrollbar */
+            padding-right: 50px;
+            /* Maximum width of scrollbar */
+            overflow-y: scroll;
+        }
+    }
+
+    .info {
+        margin-top: 3%;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 15px;
+
+        color: #000000;
+    }
+
+    .info-2 {
+        margin-top: 3%;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 15px;
+
+        color: #808080;
+    }
+}
+
+
+.tab-1 {
+
+    .parents {
+        height: 200px;
+        // border: 1px solid #AAA;
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    .child {
+        height: 100%;
+        width: 100%;
+        margin-right: -50px;
+        /* Maximum width of scrollbar */
+        padding-right: 50px;
+        /* Maximum width of scrollbar */
+        overflow-y: scroll;
+
+        .con-1 {
+            text-align: justify;
+            display: flex;
+
+            .kondisi {
+                font-family: 'Calibri';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 15px;
+
+                color: #000000;
+
+
+            }
+
+            .baru {
+                font-family: 'Calibri';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 15px;
+
+                color: #000000;
+            }
+
+            .kategori {
+                font-family: 'Calibri';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 15px;
+
+                color: #000000;
+
+
+            }
+
+            .item {
+                font-family: 'Calibri';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 15px;
+
+                color: #24d311;
+            }
+        }
+    }
+
+
+}

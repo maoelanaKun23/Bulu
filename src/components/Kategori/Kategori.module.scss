@@ -1,0 +1,28 @@
+.this-card {
+    display: flex;
+    gap: 10px;
+
+    .card {
+        width: 9%;
+        height: 16vh;
+        object-fit: cover;
+        cursor: pointer;
+        .img {
+            width: 65%;
+            margin-left: 16%;
+            margin-top: 5%;
+        }
+
+        .font {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+
+            color: #000000;
+            // margin-left: 20%;
+            text-align: center;
+        }
+    }
+}

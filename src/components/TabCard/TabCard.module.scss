@@ -1,0 +1,145 @@
+.this-box {
+    border: 1px solid #B7B7B7 !important;
+    border-radius: 16px;
+    height: 20vh;
+
+}
+
+.btn {
+    margin-left: 2%;
+    width: 12%;
+    height: 36px;
+    margin-top: 3.2%;
+
+    .btn-beli {
+        width: 100%;
+        height: 36px;
+        background-color: #d2d2d2;
+        border: 1px solid #B7B7B7 !important;
+        border-radius: 6px;
+    }
+
+    .font-btn {
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 14px;
+        line-height: 18px;
+
+        /* identical to box height, or 129% */
+        letter-spacing: -0.096px;
+
+        color: #727272;
+    }
+}
+
+.tel {
+    margin-top: -2%;
+    display: flex;
+
+    .opsi {
+        width: 40%;
+        
+
+        .opsimain {
+            cursor: pointer;
+            width: 100%;
+            height: 36px;
+            border: 1px solid #B7B7B7 !important;
+            border-radius: 6px;
+        }
+
+        .nominal {
+            font-family: 'SF Pro Text';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+
+            /* identical to box height, or 129% */
+            letter-spacing: -0.096px;
+
+            color: #898989;
+        }
+    }
+
+    .telepon {
+        width: 40%;
+        margin-right: 3%;
+
+        .input-field {
+            width: 100%;
+            height: 35px !important;
+            border-radius: 6px;
+            border: 1px solid #B7B7B7 !important;
+        }
+    }
+
+    .notel {
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+
+        /* identical to box height, or 129% */
+        letter-spacing: -0.096px;
+
+        color: #898989;
+    }
+}
+
+.token {
+    display: flex;
+    margin-top: -2%;
+
+    .id-pelanggan {
+        width: 25%;
+        margin-right: 3%;
+
+        .field {
+            width: 100%;
+            height: 32px !important;
+            border-radius: 6px;
+            border: 1px solid #B7B7B7 !important;
+        }
+
+        .nometer {
+            font-family: 'SF Pro Text';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+
+            /* identical to box height, or 129% */
+            letter-spacing: -0.096px;
+
+            color: #898989;
+        }
+    }
+
+    .cnt {
+        width: 25%;
+        margin-right: 2%;
+
+        .this-nominal {
+            font-family: 'SF Pro Text';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+
+            /* identical to box height, or 129% */
+            letter-spacing: -0.096px;
+
+            color: #898989;
+        }
+
+        .opsi-main {
+            width: 100%;
+            height: 35px !important;
+            border-radius: 6px;
+            border: 1px solid #B7B7B7 !important;
+        }
+    }
+}

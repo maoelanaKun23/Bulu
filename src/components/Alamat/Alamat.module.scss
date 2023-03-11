@@ -1,0 +1,93 @@
+.card {
+    width: 95.5%;
+    height: 230px;
+    margin-left: 1%;
+    border-radius: 20px;
+    background-color: #fffefe !important;
+    border: 1px solid #964b00;
+
+    .card {
+        width: 100%;
+
+
+    }
+
+    .head {
+        margin-left: 1.5%;
+        margin-top: 2%;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.6vw;
+        line-height: 20px;
+
+        /* identical to box height */
+
+        color: #a19d9d;
+
+        opacity: 0.8;
+    }
+
+    .nama {
+        margin-left: 2.5%;
+        margin-top: 3%;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.6vw;
+        line-height: 20px;
+
+        /* identical to box height */
+
+        color: #000000;
+
+        opacity: 0.8;
+    }
+
+    .font {
+        margin-top: 0.5%;
+        margin-left: 2.5%;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 520;
+        font-size: 1.4vw;
+        line-height: 20px;
+
+        /* or 143% */
+
+        color: #2C2C2C;
+    }
+    .content2{
+        display: flex;
+        .nama2 {
+            cursor: pointer;
+            margin-left: 2.5%;
+            margin-top: 3%;
+            font-family: 'Calibri';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.6vw;
+            line-height: 20px;
+    
+            /* identical to box height */
+    
+            color:#5dd95d;
+    
+            opacity: 0.8;
+        }
+    
+        .font2 {
+            margin-top: 0.5%;
+            margin-left: 2.5%;
+            font-family: 'Calibri';
+            font-style: normal;
+            font-weight: 520;
+            font-size: 1.4vw;
+            line-height: 20px;
+    
+            /* or 143% */
+    
+            color: #2C2C2C;
+        }
+    }
+}

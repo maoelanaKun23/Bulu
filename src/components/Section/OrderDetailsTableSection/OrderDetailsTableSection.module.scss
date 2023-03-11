@@ -1,0 +1,50 @@
+.section {
+  border-spacing: 0px 5px;
+  text-align: left;
+
+  img {
+    height: 22px;
+    width: 18px;
+  }
+
+  th {
+    padding: 10px 14px;
+
+    background-color: #3377b3;
+    border: 1px solid #3377b3;
+    font-family: "SFProText-Regular";
+    color: #ffffff;
+  }
+
+  th:first-child {
+    border-radius: 4px 0px 0px 4px;
+  }
+  th:last-child {
+    border-radius: 0px 4px 4px 0px;
+  }
+
+  td {
+    padding: 10px 14px;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    font-family: "SFUIText-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #565555;
+  }
+
+  td:first-child {
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  td:last-child {
+    border-radius: 0px 4px 4px 0px;
+  }
+
+  .desc {
+    color: #3377b3;
+  }
+}

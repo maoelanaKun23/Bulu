@@ -1,0 +1,43 @@
+.judul {
+    background-color: #F0F0F0;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+
+    .font-judul {
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+
+        /* identical to box height, or 129% */
+        letter-spacing: -0.096px;
+
+        color: #898989;
+    }
+}
+
+.popover {
+    width: 80%;
+
+    .bot {
+        background-color: rgb(36, 36, 36);
+
+        .font-bot {
+            font-family: 'SF Pro Text';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+
+            /* identical to box height, or 129% */
+            letter-spacing: -0.096px;
+
+            color: #F8F8F8;
+        }
+    }
+
+
+}

@@ -1,0 +1,18 @@
+.card {
+  background: #ffffff;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: max-content;
+  cursor: pointer;
+
+  font-family: "SFProText-Regular";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+
+  img {
+    height: 8px;
+    width: 10px;
+  }
+}

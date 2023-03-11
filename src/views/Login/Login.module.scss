@@ -1,0 +1,84 @@
+
+
+.Container {
+  width: 41%;
+  margin-left: 345px;
+  margin-top: 80px;
+  border-top: 2px solid #964b00;
+  border-bottom: 2px solid #964b00;
+  
+
+  .TextLogin {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #FFCC00;
+  }
+
+  .TextSign {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #707070;
+  }
+
+  .ButtonLogin {
+    align-items: center;
+    
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .Content {
+    width: 55%;
+    height: 40px;
+    background: #FFCC00;
+    border-radius: 16px;
+
+    .TitleButton {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 30px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.005em;
+
+      color: #000000;
+    }
+
+
+  }
+
+
+}
+
+.ForgotPass {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+
+  letter-spacing: 0.005em;
+
+  color: #707070;
+}

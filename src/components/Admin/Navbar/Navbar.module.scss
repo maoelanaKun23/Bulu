@@ -1,0 +1,83 @@
+.navbar {
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.08);
+
+	.navbarTop {
+		padding: 6px 0;
+		background: #f9f9f9;
+
+		a {
+			color: #707070;
+			font-size: 10px;
+			font-family: "SFProText-Regular";
+			text-decoration: none;
+			text-align: center;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		img {
+			height: 13px;
+			width: 13px;
+		}
+	}
+
+	.navbarBottom {
+		height: 75.96px;
+		display: flex;
+		align-items: center;
+
+		.barIcon {
+			position: absolute;
+			left: 3em;
+		}
+
+		.navIcon {
+			margin-left: 3em;
+			height: 4em;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+
+		.sidebarNav {
+			background-color: #f9f9f9;
+			width: 250px;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			position: fixed;
+			top: 30px;
+			transition: 350ms;
+			z-index: 10;
+		}
+
+		.sidebarWrap {
+			width: 100%;
+		}
+
+		.logo {
+			height: 36px;
+			width: 183px;
+		}
+
+		.profile {
+			height: 36px;
+			width: 36px;
+			border-radius: 50%;
+		}
+
+		.icNotification {
+			height: 20px;
+			width: 16px;
+			padding: 8px 10px;
+			background-color: #f0f0f0;
+			border-radius: 50%;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}

@@ -1,0 +1,151 @@
+.this-head {
+    height: 300px;
+
+    .seeall {
+        margin-left: 65%;
+        margin-top: 3%;
+        cursor: pointer;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 18px;
+        line-height: 18px;
+
+        /* identical to box height, or 129% */
+        letter-spacing: -0.096px;
+
+        color: #24d311;
+    }
+
+    .icon-like {
+        display: flex;
+        margin-top: 5%;
+        margin-left: 3%;
+        cursor: pointer;
+        gap: 5px;
+
+        .this-icon-like {
+            // color: #24d311 !important;
+            font-size: 1.4rem;
+        }
+
+        .membantu {
+            margin-top: 0.5%;
+            font-family: 'Calibri';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+
+            /* identical to box height, or 129% */
+            letter-spacing: -0.096px;
+
+            color: #000000;
+        }
+
+        .icon-balasan {
+            font-size: 1.4rem;
+            margin-left: -1%;
+            margin-top: 0.5%;
+        }
+
+        .balasan {
+            margin-top: 0.5%;
+            margin-left: 50%;
+            font-family: 'Calibri';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+
+            /* identical to box height, or 129% */
+            letter-spacing: -0.096px;
+
+            color: #000000;
+        }
+    }
+
+    .ini-ulasan {
+        margin-top: -3%;
+    }
+
+    .komen {
+        margin-bottom: 5%;
+
+        .akun {
+            display: flex;
+
+            .icon-nama {
+                // color: #24d311 !important;
+                font-size: 2.5rem;
+            }
+
+
+            .nama {
+                margin-top: 2%;
+                font-family: 'Calibri';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 18px;
+
+                /* identical to box height, or 129% */
+                letter-spacing: -0.096px;
+
+                color: #020202;
+            }
+        }
+
+        .font-komen {
+            margin-left: 3%;
+            margin-top: 3%;
+            font-family: 'Calibri';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+
+            /* identical to box height, or 129% */
+            letter-spacing: -0.096px;
+
+            color: #020202;
+        }
+    }
+
+    .bintang {
+        display: flex;
+        margin-top: 8%;
+    }
+
+    .font-bintang {
+        margin-top: 0.5%;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+
+        /* identical to box height, or 129% */
+        letter-spacing: -0.096px;
+
+        color: #898989;
+    }
+}
+
+.head {
+    margin-bottom: 1%;
+
+    .font-head {
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 39px;
+
+        /* identical to box height */
+
+        color: #000000;
+
+        opacity: 0.8;
+    }
+}

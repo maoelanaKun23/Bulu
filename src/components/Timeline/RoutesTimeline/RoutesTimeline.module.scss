@@ -1,0 +1,85 @@
+.routesTimeline {
+  padding: 18px 36px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+
+  .companyName {
+    font-family: "SFProDisplay-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2c2c2c;
+  }
+
+  .btnEdit {
+    font-family: "SFProDisplay-Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ffcc00;
+    padding: 0;
+    text-transform: capitalize;
+
+    &:hover {
+      background-color: #ffcc00;
+    }
+  }
+
+  .address {
+    font-family: "SFProDisplay-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2c2c2c;
+  }
+
+  .datetime {
+    font-family: "SFProDisplay-Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #acaaaa;
+  }
+
+  .status {
+    background: #49b2f2;
+    border-radius: 10.8744px;
+    font-family: "SFProDisplay-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    padding: 2px 10px !important;
+  }
+}
+
+.header-modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // font style
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "SFProText-Regular";
+}
+
+.text-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+
+  .label {
+    min-width: 25%;
+    white-space: nowrap;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "SFProText-Regular";
+  }
+}

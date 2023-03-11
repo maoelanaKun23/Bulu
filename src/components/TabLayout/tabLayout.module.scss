@@ -1,0 +1,27 @@
+.tabsList {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0px;
+
+  .tabHead {
+    color: #b3b9b9;
+    margin: 0px 50px 0px 0px;
+    padding: 10px 0px;
+    font-size: vw(1.40625);
+    font-family: "SFUIDisplay-Regular";
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.active {
+  color: #001717 !important;
+  font-weight: bold;
+  border-bottom: 4px solid #ffcc00;
+  font-family: "SFUIDisplay-Bold";
+  cursor: pointer;
+}
+
+.border {
+  border-bottom: 1px solid #dcdcdc;
+}

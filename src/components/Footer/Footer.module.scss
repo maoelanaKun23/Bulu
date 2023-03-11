@@ -1,0 +1,76 @@
+.foot {
+    display: flex;
+    gap: 130px;
+    margin-left: 5%;
+
+    .par-0 {
+        margin-left: -13%;
+        margin-top: -1%;
+    }
+
+    .this-head {
+        margin-left: 24%;
+        margin-top: -31%;
+        font-family: 'Candara';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+
+        /* identical to box height */
+
+        color: #000000;
+
+        opacity: 0.8;
+    }
+
+    .logo {
+
+        width: 75%;
+        margin-left: 3%;
+        .this-logo {
+            width: 100%;
+        }
+    }
+
+    .par-1 {
+        margin-bottom: 10%;
+
+    }
+
+    .icon {
+        gap: 6px;
+        display: flex;
+    }
+
+    .par-2 {
+        margin-bottom: 10%;
+    }
+
+    .head {
+        font-family: 'Candara';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+
+        /* identical to box height */
+
+        color: #000000;
+
+        opacity: 0.8;
+    }
+
+    .font {
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+
+        /* identical to box height, or 129% */
+        letter-spacing: -0.096px;
+
+        color: #898989;
+    }
+}

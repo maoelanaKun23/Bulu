@@ -1,0 +1,19 @@
+.section {
+  margin-top: 30px;
+  padding: 45px 0;
+
+  .title {
+    font-family: "SFProText-Regular";
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .label {
+    font-family: "SFUIDisplay-Regular";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+}

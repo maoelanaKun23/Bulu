@@ -1,0 +1,18 @@
+@function vw($size-in-px){
+    $size-in-vw:($size-in-px * 100) /1920;
+    @return #{$size-in-vw}vw;
+}
+@function vh($size-in-px) {
+    $size-in-vw: ($size-in-px * 100) / 1080;
+    @return  #{$size-in-vw}vh;
+}
+
+@function vw-mobile($size-in-px) {
+    $size-in-vw: ($size-in-px * 100) / 360;
+    @return  #{$size-in-vw}vw;
+}
+
+@function vw-tab($size-in-px) {
+    $size-in-vw: ($size-in-px * 100) / 768;
+    @return  #{$size-in-vw}vw;
+}

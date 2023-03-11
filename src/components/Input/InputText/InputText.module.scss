@@ -1,0 +1,28 @@
+.input-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 8px;
+
+
+}
+
+.field {
+  width: 100%;
+  background: #D9D9D9;
+  border: #D9D9D9;
+  border-radius: 8px;
+
+  .text-field {
+    height: 57px;
+    width: 100%;
+    background: #D9D9D9;
+    border: #D9D9D9;
+    border-radius: 8px;
+    outline: none;
+  }
+}
+
+.field:hover {
+  outline: 2px solid black;
+}
