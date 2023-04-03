@@ -3,9 +3,6 @@ import { useField } from "formik";
 import {
   FormLabel,
   IconButton,
-  InputAdornment,
-  TextField,
-  InputBase
 } from "@material-ui/core";
 import { Visibility, VisibilityOff } from "@material-ui/icons";
 import styles from "./InputPassword.module.scss";

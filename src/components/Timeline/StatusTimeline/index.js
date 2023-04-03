@@ -23,15 +23,17 @@ const DotIcon = status => {
 const StatusTimeline = ({ datas }) => {
   return (
     <div className={style.statusTimeline}>
+      
       <Grid
         container
         direction="column"
         justifyContent="flex-start"
         alignItems="flex-start"
       >
+        
         <ul>
           {datas.map((data, index) => (
-            <li className={DotIcon(data.info)} key={index}>
+            <li className={DotIcon(data.info) + ' ' + 'li-garis'} key={index}>
               <Grid item>
                 <div className={style.header}>{data.status}</div>
               </Grid>

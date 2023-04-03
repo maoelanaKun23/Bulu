@@ -1,0 +1,32 @@
+.btn-0 {
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    border: 1px solid #f0d000;
+    margin-left: 25%;
+
+    .btn {
+        width: 100%;
+
+        :hover {
+            background-color: #f0d000;
+        }
+    }
+}
+
+.fnt {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    .total {
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5vw;
+        line-height: 25px;
+
+        color: #000000;
+
+
+    }
+}

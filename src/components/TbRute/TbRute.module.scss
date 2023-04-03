@@ -1,0 +1,31 @@
+.track {
+    display: flex;
+    width: 140%;
+    height: 30px;
+    background-color: #ffff;
+    border-radius: 16px;
+    cursor: pointer;
+    border: 1p solid #d9d9d9;
+    align-items: center;
+    text-align: center;
+    .icon {
+        font-size: 3rem;
+    }
+
+    .font {
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+
+        color: #000000;
+    }
+}
+
+.popover {
+    width: 50%;
+    height: 300px;
+    margin-top: 1%;
+}

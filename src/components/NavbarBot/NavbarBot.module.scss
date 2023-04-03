@@ -12,7 +12,7 @@
     .profile {
         width: 48px;
         height: 48px;
-        margin-left: 27%;
+        margin-left: 32%;
         border-radius: 100%;
         border: 2px solid #f0d000;
         cursor: pointer;
@@ -26,6 +26,7 @@
             text-align: center;
             text-decoration: none;
             opacity: 0.9;
+
             .btn1 {
                 text-decoration: none;
                 width: 45%;
@@ -112,10 +113,12 @@
     }
 
     .cart {
-cursor: pointer;
-        margin-left: 2%;
+        cursor: pointer;
+        margin-left: 40%;
     }
-
+    .keranjang{
+        margin-top: 100%;
+    }
     .icon {
         margin-left: 0.8%;
         margin-top: 1%;

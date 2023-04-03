@@ -6,7 +6,6 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { Grid } from '@material-ui/core';
 import style from "./Desc.module.scss"
-import { FormatTextdirectionLToR } from '@material-ui/icons';
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
 
@@ -101,7 +100,7 @@ const Desc = ({ambilObjek}) => {
                                 {ambilObjek.eta}                            </Typography>
                         </Grid>
                         <Grid className={style["con-1"]} >
-                            <Typography className={style["kategori"]}>
+                            <Typography className={style["ds"]}>
                                 {ambilObjek.ds}
                             </Typography>
                         </Grid>

@@ -46,6 +46,10 @@
     max-height: 10%;
 
     .Desc {
+        white-space: nowrap;
+        width: 135px;
+        overflow: hidden;
+        text-overflow: ellipsis;
         font-family: 'Candara';
         font-style: normal;
         font-weight: 400;
@@ -73,20 +77,22 @@
 
 
 .Origin {
-    margin-top: 4%;
-    margin-left: 6%;
-    font-family: 'Poppins';
+    text-decoration-line: line-through;
+    margin-top: 2.5%;
+    margin-left: 9%;
+    font-family: 'Calibri';
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1vw;
     line-height: 30px;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.005em;
 
-    color: #707070;
-    .icon-place{
+    color: #ff3a3a;
+
+    .icon-place {
         color: #bf00ff;
         font-size: 0.8rem;
     }
@@ -98,12 +104,14 @@
     text-align: center;
     margin-left: 30%;
     margin-bottom: 2%;
-    .icon-item{
+
+    .icon-item {
         color: #F0D000;
         font-size: 1rem;
     }
+
     .item {
-        
+
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;

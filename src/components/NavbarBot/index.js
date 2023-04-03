@@ -1,23 +1,20 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import Popper from '@mui/material/Popper';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import Modal from '@mui/material/Modal';
-
+import Bar from 'components/Bar';
+import Keranjang from 'components/Keranjang';
 import Button from '@mui/material/Button';
-import Fade from '@mui/material/Fade';
-import Paper from '@mui/material/Paper';
-import { Container, } from "@material-ui/core";
+
+
 import SearchBar from "material-ui-search-bar";
 import { UTLogoBlack, Profile, BuluBulu } from "../../assets/images";
 import { Phone, Bell } from "../../assets/icons";
 import { getFromLocalStorage } from "utils/userLocalServices";
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import Lok from 'components/Lokasi';
 import { NavLink } from 'react-router-dom';
 import style from "./NavbarBot.module.scss"
-import { DATADIRI, LOGIN } from 'constants/routes';
+import { DASHBOARD, DATADIRI, LOGIN } from 'constants/routes';
+
 
 const styles = {
     position: 'absolute',
@@ -33,7 +30,7 @@ const styles = {
 };
 const styling = {
     position: 'absolute',
-    top: '130%',
+    top: '150%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: 280,
@@ -69,27 +66,17 @@ const NavbarBot = () => {
 
             <img className={style["logo"]} src={BuluBulu} alt="Logo Kami" />
 
-            <SearchBar
+            <Bar
                 className={style["bar"]}
             // value={this.state.value}
             // onChange={(newValue) => this.setState({ value: newValue })}
             // onRequestSearch={() => doSomethingWith(this.state.value)}
             />
-            {
-                open2 ?
-                    <Grid className={style["cart"]}>
-                        <ShoppingCartIcon  onClick={handleClose2} />
-                        <Box sx={styling} open={open2}
-                            onClose={handleClose2}>
-                            hallo
-                        </Box>
-                    </Grid>
-                    :
-                    <Grid className={style["cart"]}>
-                        <ShoppingCartIcon onClick={handleOpen2} />
 
-                    </Grid>
-            }
+
+            <Keranjang />
+
+
 
 
 
@@ -108,9 +95,9 @@ const NavbarBot = () => {
                             <Typography className={style["hpro"]}>Yusuf Maulana</Typography>
                             <Grid className={style["btn"]}>
 
-                                <NavLink className={style["btn1"]} onClick={handleClose} to={`${DATADIRI}`}>
+                                <NavLink className={style["btn1"]} onClick={handleClose} to={`${DASHBOARD}`}>
                                     <Button >
-                                        <Typography className={style["font-btn1"]}>Profile</Typography>
+                                        <Typography className={style["font-btn1"]}>Info </Typography>
                                     </Button>
                                 </NavLink>
                                 <NavLink onClick={handleClose} to={`${LOGIN}`} className={style["btn2"]}>

@@ -1,0 +1,73 @@
+.box-chat-size {
+    width: 400px;
+
+}
+
+.list-note-wrapper {
+    .time-chat {
+        margin-right: 3%;
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9vw;
+        line-height: 16px;
+
+        /* identical to box height, or 100% */
+
+        color: #2C2C2C;
+    }
+
+    .bubble-chat {
+        margin-right: 3%;
+        font-family: 'Candara';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2vw;
+        line-height: 16px;
+
+        /* identical to box height, or 100% */
+
+        color: #2C2C2C;
+
+    }
+}
+
+
+.chat-text {
+    text-align: left;
+    background-color: #E1F3FF;
+    border-radius: 0px 12px 12px 12px;
+}
+
+
+.message-field {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 12px;
+    height: 45px;
+    width: 500px;
+    margin-right: 3%;
+}
+
+.send-box-chat {
+    border-width: 3px;
+    border-style: solid;
+    border-top-color: whitesmoke;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: 0px -10px 12px rgba(0, 0, 0, 0.08);
+}
+
+.icon-chat {
+    color: #898989;
+    font-size: 1.6rem;
+}
+
+.send-button {
+    height: 45px;
+    width: 45px;
+    background-color: #FFD500;
+    border-radius: 16px;
+}

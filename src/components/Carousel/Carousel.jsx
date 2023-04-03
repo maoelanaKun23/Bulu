@@ -1,20 +1,30 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import Carousel from "react-multi-carousel";
 import { Grid, Typography } from '@material-ui/core';
 import "react-multi-carousel/lib/styles.css";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import { productData } from './data';
-import PlaceIcon from '@mui/icons-material/Place';
+import { useHistory } from 'react-router';
+import API from 'api/productData';
 import styles from "./Carousel.module.scss";
+import { FormatRupiah } from '@arismun/format-rupiah';
 import GradeIcon from '@mui/icons-material/Grade';
-import VerifiedIcon from '@mui/icons-material/Verified';
-import StarRateIcon from '@mui/icons-material/StarRate';
-import CardItem from 'components/Card/CardItem';
+import { TO_DETAIL_NEW } from 'constants/routes';
 
 const Discount = () => {
+  const history = useHistory();
+  const detail = (id) => {
+    history.push(`${TO_DETAIL_NEW}/${id}`)
+    localStorage.removeItem("inputValue")
 
+  }
+  const [penggunaBaru, SetPenggunaBaru] = useState([]);
+  useEffect(() => {
+    API.get('/penggunaBaru')
+      .then(res => {
+        SetPenggunaBaru(res.data)
+      })
+  }, []);
 
   const responsive = {
     superLargeDesktop: {
@@ -43,21 +53,21 @@ const Discount = () => {
         autoPlaySpeed={1500}
         centerMode
 
-        renderArrowsWhenDisabled={false}
+        renderArrowsWhenDisabled={true}
         responsive={responsive}>
-        {productData.map((item, index) => {
+        {penggunaBaru.map((item, index) => {
           return (
             <React.Fragment key={index}>
               <Grid className={styles["this-main"]}>
 
-                <Card 
-                hoverable
-                className={styles["content"]}>
+                <Card
+                  onClick={() => detail(item.id)}
+                  className={styles["content"]}>
                   <Grid className={styles["cover-img"]}>
                     <img
                       className={styles["this-img"]}
                       src={item.imageurl}
-                      alt="alan walker"
+                      alt="Diskon Pengguna Baru"
                     />
                   </Grid>
                   <CardContent className={styles["Card-bottom"]} >
@@ -68,11 +78,13 @@ const Discount = () => {
 
                   </CardContent>
                   <Grid className={styles["Price"]}>
-                    {item.price}
+                    <FormatRupiah value=
+                    {item.price}/>
                   </Grid>
 
                   <Grid className={styles["Origin"]}>
-                    <VerifiedIcon className={styles["icon-place"]} />&nbsp;{item.origin}
+                    {item.dprice}
+                    {/* <VerifiedIcon className={styles["icon-place"]} />&nbsp;{item.origin} */}
                   </Grid>
                   <Grid className={styles["terjual"]}>
                     <GradeIcon className={styles["icon-item"]} />

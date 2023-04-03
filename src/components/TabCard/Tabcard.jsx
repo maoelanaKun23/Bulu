@@ -3,13 +3,8 @@ import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
-import { TextField, Grid, Button } from '@material-ui/core';
-
+import { Grid, Button } from '@material-ui/core';
 import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
 import style from "./TabCard.module.scss"
 function TabPanel(props) {
   const { children, value, index, ...other } = props;

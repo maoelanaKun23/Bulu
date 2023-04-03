@@ -6,6 +6,9 @@ import TabPanelUnstyled from '@mui/base/TabPanelUnstyled';
 import { buttonUnstyledClasses } from '@mui/base/ButtonUnstyled';
 import TabUnstyled, { tabUnstyledClasses } from '@mui/base/TabUnstyled';
 import Bio from 'components/Bio';
+import Pesanan from 'components/Banner';
+import Rekening from 'components/Rekening';
+import Tracking from 'components/Tracking';
 import Alamat from 'components/Alamat';
 
 const blue = {
@@ -103,13 +106,15 @@ const TabsDiri = () => {
       <TabsList>
         <Tab>Biodata Diri</Tab>
         <Tab>Daftar Alamat</Tab>
+        <Tab>Daftar Pesanan</Tab>
+        <Tab>Lacak Pesanan</Tab>
         <Tab>Rekening Bank</Tab>
-        <Tab>Keamanan</Tab>
       </TabsList>
       <TabPanel value={0}><Bio/></TabPanel>
       <TabPanel value={1}><Alamat/></TabPanel>
-      <TabPanel value={2}>Language page</TabPanel>
-      <TabPanel value={3}> page</TabPanel>
+      <TabPanel value={2}><Pesanan/></TabPanel>
+      <TabPanel value={3}> <Tracking/></TabPanel>
+      <TabPanel value={4}><Rekening/></TabPanel>
     </TabsUnstyled>
   );
 }

@@ -1,15 +1,108 @@
+.particles{
+  width: 20%;
+  position: absolute;
+  left: 1000%;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  .title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #707070;
+  }
+  .title-pass {
+    margin-top: 5%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #707070;
+  }
 
 
-.Container {
-  width: 41%;
-  margin-left: 345px;
-  margin-top: 80px;
-  border-top: 2px solid #964b00;
-  border-bottom: 2px solid #964b00;
+}
+
+
+.field-pass {
+  display: flex;
+  background: #D9D9D9;
+  border: #D9D9D9;
+  border-radius: 8px;
+  width: 100.5%;
+
   
 
+  .input-password {
+    height: 59.4px;
+    width: 100%;
+    background: #D9D9D9;
+    border: #D9D9D9;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+  }
+
+  .eye-icon {
+    height: 57px;
+    width: 10%;
+    padding-top: 5px;
+
+  }
+}
+
+.field-pass:hover {
+  outline: 2px solid black;
+
+}
+
+.field {
+  width: 100%;
+  background: #D9D9D9;
+  border: #D9D9D9;
+  border-radius: 8px;
+
+  .text-field {
+    height: 57px;
+    width: 100%;
+    background: #D9D9D9;
+    border: #D9D9D9;
+    border-radius: 8px;
+    outline: none;
+  }
+}
+
+.field:hover {
+  outline: 2px solid black;
+}
+
+.Container {
+  z-index: 5;
+  width: 490px;
+  margin-left: 320px;
+  margin-top: 3%;
+  padding: 3%;
+  border-radius: 16px;
+  background-color: #fff;
+
+
   .TextLogin {
-    margin-top: 30px;
+    margin-top: 6%;
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
@@ -22,7 +115,6 @@
   }
 
   .TextSign {
-    text-decoration: none;
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
@@ -32,17 +124,17 @@
     align-items: center;
     letter-spacing: 0.005em;
     color: #707070;
+    text-decoration: none;
   }
 
   .ButtonLogin {
     align-items: center;
-    
+    margin-left: 140px;
     margin-top: 40px;
-    text-align: center;
   }
 
   .Content {
-    width: 55%;
+    width: 210px;
     height: 40px;
     background: #FFCC00;
     border-radius: 16px;
@@ -69,7 +161,6 @@
 
 .ForgotPass {
   margin-top: 20px;
-  margin-bottom: 40px;
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;

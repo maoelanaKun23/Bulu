@@ -3,6 +3,7 @@ import { Navbar } from "components";
 import { InputText } from "components/Input";
 import { Form, Formik } from "formik";
 import React from "react";
+import Parallax from "components/Parallax/Parallax";
 import styles from "./ForgotPassword.module.scss";
 
 const ForgotPassword = () => {
@@ -14,6 +15,9 @@ const ForgotPassword = () => {
         <>
             
             <Container>
+                <Grid>
+                    <Parallax/>
+                </Grid>
                 <Grid className={styles["Cntr"]}>
                     <Grid className={styles["TextContain"]}>
                         <p className={styles["TextHead"]}>

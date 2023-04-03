@@ -1,0 +1,26 @@
+.beli {
+    width: 530%;
+    height: 400% !important;
+    margin-left: 20%;
+    margin-top: 30%;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f0d000;
+    border-radius: 4px;
+
+    text-transform: capitalize;
+    border: 1px solid #000000;
+
+    .font-beli {
+        height: 100%;
+        text-transform: capitalize;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.4vw;
+        line-height: 15px;
+
+
+        color: #000000;
+    }
+}

@@ -1,0 +1,22 @@
+.mapContainer {
+    width: 100%;
+    height: 100vh;
+    margin-top: -40px;
+    margin-left: -1.2%;
+  }
+  
+  .map {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .absoluteContainer {
+    width: calc(80vw - 40px);
+    margin: 24px;
+  
+    position: absolute;
+    z-index: 2;
+    top: 50;
+  }
+  
